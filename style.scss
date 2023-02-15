@@ -1,10 +1,11 @@
 body {
     height: 100vh;
-    
+    overflow: auto;
+    scroll-behavior: smooth;
     
     main {
         display: flex;
-        
+        height: fit-content;
         width: 80%;
         margin: 1rem auto;
         .sticky {
@@ -16,7 +17,7 @@ body {
             border-radius: 5px;
             margin-right: 5rem;
             position: relative;
-            top: 10rem;
+            top: 8rem;
         }
 
         .content {

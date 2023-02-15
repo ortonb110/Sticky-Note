@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
-<body>
+<body onscroll="stick()">
     <!--
         Write a script that works almost like position: sticky in css.
         Whenever you scroll and element is about to get off the screen - it should stick to the top and follow the scroll.
     -->
-    <main>
-        <div class="sticky"></div>
+    <main >
+        <div class="sticky" id="sticky"></div>
         <div class="content"></div>
     </main>
 </body>
